@@ -1,0 +1,14 @@
+.navbar{
+    background : none !important;
+}
+.navbar a{
+    transition: 1s;
+    font-size: 20px;
+    color: white;
+}
+.active a{
+    color: #D12731 !important;
+}
+.navbar a:hover{
+    color : #D12731;
+}

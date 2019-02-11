@@ -1,0 +1,45 @@
+#section1{
+    display: block;
+    width: 100%;
+    min-height: 750px;
+    background: url('https://imgbbb.com/images/2019/02/06/slider_image_home1x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2%;
+}
+#section2{
+    display: block;
+    width: 100%;
+    min-height: 550px;
+    background: #E9ECEF;
+}
+#section3{
+    display: block;
+    min-width: 100%;
+    height: 100%;
+    padding: 0;
+}
+#section4{
+    display: block;
+    max-width: 100%;
+    min-height: 700px;
+    padding: 4%;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+#section5{
+    display: block;
+    width: 100%;
+    min-height: 700px;
+    padding: 5%;
+    background: #E9ECEF;
+}
+#section6{
+    display: block;
+    width: 100%;
+    min-height: 600px;
+    padding: 5%;
+    background: url('https://imgbbb.com/images/2019/02/06/news_letter_background_image_home1x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

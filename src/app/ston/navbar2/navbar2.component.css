@@ -1,0 +1,9 @@
+.navbar{
+    background : none !important;
+    margin-top: 12%;
+}
+.navbar a{
+    transition: 1s;
+    font-size: 20px;
+    color: white;
+}

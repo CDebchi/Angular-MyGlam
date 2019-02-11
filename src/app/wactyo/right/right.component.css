@@ -1,0 +1,33 @@
+.cty{
+    color: #777D7F;
+    text-align: center;
+    margin-top: 30%;
+}
+.as-btn{
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+.as-img{
+    width : 200px;
+    height: 50px;
+}
+.btnbtnbtn{
+    color: white;
+    background-color: #D12731;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    height: 45px;
+    margin-bottom: 40px;
+    transition : 1s;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10%;
+}
+
+.btnbtnbtn:hover{
+    border: 1px solid #D12731;
+    color: #D12731;
+    background: none;
+}
