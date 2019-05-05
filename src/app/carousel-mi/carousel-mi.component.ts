@@ -16,8 +16,7 @@ export class CarouselMIComponent implements OnInit {
   ngOnInit() {
     this.ass.getApi().subscribe(abc =>{
     console.log(abc);
-    this.bcd = abc.data;
-    console.log(this.bcd);
+    this.bcd = abc['data'];
     })
    
   }

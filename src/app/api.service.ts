@@ -7,6 +7,9 @@ export class ApiService {
   constructor(private http : HttpClient) {     
    }
     getApi(){
-    return this.http.get('https://api.myglamapp.pl/api/categories?language=EN');
+      this.http.get('https://api.myglamapp.pl/api/categories?language=EN').subscribe(res => {
+        console.log(res)
+      })
+    return this.http.get('http://api.myglamapp.pl/api/categories?language=EN');
    }
 }
